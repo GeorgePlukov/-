@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "rimraf node_modules/.cache && rimraf out && next build && next export && gh-pages -d out -t true"
   },
   "dependencies": {
     "next": "9.4.1",
