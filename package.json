@@ -1,7 +1,6 @@
 {
-  "name": "georgeplukov.com",
+  "name": "georgeplukov",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,5 +11,8 @@
     "next": "9.4.1",
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-define": "^2.0.0"
   }
 }
