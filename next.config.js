@@ -12,7 +12,7 @@ module.exports = {
     };
   },
   //assetPrefix: '',
-  assetPrefix: !debug ? "/georgeplukov/" : "",
+  assetPrefix: !debug ? "/georgeplukov.github.io/" : "",
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
     config.module.rules = config.module.rules.map((rule) => {
