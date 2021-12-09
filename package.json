@@ -8,7 +8,7 @@
     "deploy": "rimraf node_modules/.cache && rimraf out && next build && next export && gh-pages -d out -t true -b master"
   },
   "dependencies": {
-    "next": "9.4.1",
+    "next": "11.1.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
